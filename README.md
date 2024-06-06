@@ -1,6 +1,6 @@
 # LULC2
-Automatically categorize all pixels in an image into    land use/cover classes or themes.
-var ROI = ee.FeatureCollection("projects/ee-osamaamjad256/assets/nowshera");
+//Automatically categorize all pixels in an image into    land use/cover classes or themes.
+var ROI = ee.FeatureCollection("projects/ee-osamaamjad256/assets/hunza");
 //var ROI = ee.FeatureCollection('projects/ee-kimutailawrence19/assets/ROI');
 // Set map center to the aoi for making sure we have the correct study area
 Map.centerObject(ROI, 9)
